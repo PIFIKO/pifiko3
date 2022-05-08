@@ -1,0 +1,103 @@
+@media ( max-width: 1200px ){
+
+
+}
+@media ( max-width: 991px ){ 
+    .promo{ 
+        .container{
+            width: 767px;
+        }
+     &__subheader{
+            font-size: 22px;
+        }
+    }
+ 
+    .advantages{
+        .container{
+            width: 767px;
+        }
+    }
+}
+@media ( max-width: 767px ){  
+    .promo{
+        .container{
+            width: 575px;
+            .header{
+                &__phone{
+                    font-size: 16px;
+                }
+                &__official {
+                    span{
+                        font-size: 16px;
+                    }
+                }
+                &__logo{
+                    width: 200px;
+                }
+            }
+        }   
+    }
+    .advantages{
+        .container{
+            width: 575px;
+            .advantages{
+                &__icons{
+                    flex-direction: column;
+                    align-items:center;
+                }
+            }
+        }
+    }
+}
+@media ( max-width: 575px ){  
+    .promo{
+        padding: 10px 0 0px 0;
+        .container{
+            width: 320px;
+            .header{
+           width: 320px;
+           &__phone{
+               font-size: 10px;
+           }
+            &__logo{
+                width: 105px;
+            }
+            &__official {
+            font-size: 7px;
+            span{
+                font-size: 10px;
+            }
+            }
+            .button{
+                width: 100px;
+                height: 20px;
+                font-size: 9px;
+            }
+        }
+        }
+        
+        &__wrepper{
+          width: 312px;  
+        }
+        &__header{
+            font-size: 25px;
+            line-height: 25px;
+        }
+        &__subheader{
+            font-size: 14px;
+            line-height: 25px;
+            margin-top: 0px;
+        }
+        &__icons{
+            width: 300px;
+        }
+        &__icon{
+            font-size: 13px;
+        }
+    }
+    .advantages{
+        .container{
+            width: 320px;
+        }
+    }
+}
