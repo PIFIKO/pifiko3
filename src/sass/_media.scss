@@ -17,6 +17,34 @@
             width: 767px;
         }
     }
+    .consultation{
+         .container{
+            width: 767px;
+        }
+    }
+    .corousel{
+        .container{
+            width: 767px;
+            .slick-dots{
+                list-style-type: none;
+                display: flex;
+                position: absolute;
+                right: 50%;
+                transform: translateX(40%);
+                button{
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 100%;
+                    background: $color_btn;
+                    border:none;
+                    margin-right: 10px;
+                    font-size: 0;
+                    
+                }
+            }
+            
+        }
+    }
 }
 @media ( max-width: 767px ){  
     .promo{
@@ -38,6 +66,7 @@
         }   
     }
     .advantages{
+        padding: 35px 0 36px 0;
         .container{
             width: 575px;
             .advantages{
@@ -45,9 +74,30 @@
                     flex-direction: column;
                     align-items:center;
                 }
+                &__subheader{
+                    margin-top: 18px;
+                }
             }
         }
     }
+    .consultation{
+        .container{
+           width: 575px;
+       }
+   }
+   .corousel{
+    .container{
+        width: 575px;
+    }
+    &__inner{
+        width: 572px;
+    }
+    .slick-slide{
+        img{
+            width: 580px;
+        }
+    } 
+}
 }
 @media ( max-width: 575px ){  
     .promo{
@@ -57,19 +107,16 @@
             .header{
            width: 320px;
            &__phone{
-               font-size: 10px;
+               font-size: 12px;
            }
             &__logo{
-                width: 105px;
+                width: 200px;
             }
             &__official {
-            font-size: 7px;
-            span{
-                font-size: 10px;
-            }
+            display: none;
             }
             .button{
-                width: 100px;
+                width: 105px;
                 height: 20px;
                 font-size: 9px;
             }
@@ -80,13 +127,14 @@
           width: 312px;  
         }
         &__header{
-            font-size: 25px;
-            line-height: 25px;
+            font-size: 40px;
+            line-height: 44px;
+            text-align: center;
         }
         &__subheader{
-            font-size: 14px;
-            line-height: 25px;
-            margin-top: 0px;
+            font-size: 25px;
+            line-height: 29px;
+            text-align: center;
         }
         &__icons{
             width: 300px;
@@ -99,5 +147,39 @@
         .container{
             width: 320px;
         }
+    }
+    .consultation{
+        padding: 40px 0 92px 0;
+        .container{
+           width: 320px;
+           .title_left{
+                   text-align: center;
+                   br{
+                       display: none;
+                   }
+               }
+           .consultation{
+               &__description{
+                text-align: center;
+               }
+                .feed-form{
+                   align-items: stretch;
+               }
+            
+           }
+       }
+   }
+    .corousel{
+        .container{
+            width: 320px;
+        }
+        &__inner{
+            width: 280px;
+        }
+        .slick-slide{
+            img{
+                width: 280px;
+            }
+        } 
     }
 }
