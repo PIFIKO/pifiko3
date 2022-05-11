@@ -38,13 +38,22 @@
                     background: $color_btn;
                     border:none;
                     margin-right: 10px;
-                    font-size: 0;
-                    
+                    font-size: 0;  
                 }
-            }
-            
+            }  
         }
     }
+    .catalog{
+        .container{
+            width: 630px;
+        }
+    }
+    .clients{
+        .container{
+            width: 630px;
+        }
+    }
+    
 }
 @media ( max-width: 767px ){  
     .promo{
@@ -97,7 +106,17 @@
             width: 580px;
         }
     } 
-}
+    }
+    .catalog{
+        .container{
+            width: 610px;
+        }
+    }
+    .clients{
+        .container{
+            width: 510px;
+        }
+    }
 }
 @media ( max-width: 575px ){  
     .promo{
@@ -181,5 +200,46 @@
                 width: 280px;
             }
         } 
+    }
+    .catalog{
+        .container{
+            width: 300px;
+            .title{
+                font-size: 22px;
+            }
+            ul{
+                margin-top: 30px;
+                li{
+                    font-size: 10px;
+                }
+            }
+            .catalog__coneten{
+                margin-top: 20px;
+            }
+          } 
+    }
+    .clients{
+        .container{
+            width: 300px;
+            .title{
+                font-size: 28px;
+            }
+            
+        }
+        &__box{
+            flex-direction: column;
+            
+        }
+       
+        .clients__name{
+            text-align: center;
+        }
+        .clients__inform{
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+        }
     }
 }

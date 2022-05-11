@@ -1,0 +1,39 @@
+.clients {
+    margin-bottom: 71px;
+    &__wrepper{
+        display: block;
+        margin: 0 auto;
+    }
+    &__box {
+        margin-top: 70px;
+        display: flex;
+        
+    }
+     &__name {
+         color: #0d0d0d;
+         font-size: 18px;
+         font-weight: 700;
+         text-align: left;
+         margin-bottom: 10px;
+        }
+    &__inform{
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    &__description{
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+        img {
+            margin-right: 60px;
+            width: 169px;
+            height: 169px;
+        }
+   
+}
