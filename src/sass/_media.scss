@@ -242,4 +242,14 @@
             margin: 0 auto;
         }
     }
+    .footer{
+        .footer__info{
+            width: 310px;
+        }
+        &__social{
+            width: 130%;
+            position: absolute;
+            right: -14%;
+        }
+    }
 }
