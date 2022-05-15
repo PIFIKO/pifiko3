@@ -41,6 +41,10 @@
     &_mini{
         min-height: 140px;
     }
+    label.error{
+        text-align: center;
+        color: rgba(255, 0, 0, 0.623);
+    }
 }
 #consultation , #order ,#thencks{
     display: none;
